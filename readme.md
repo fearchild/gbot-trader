@@ -237,6 +237,7 @@ TYPE_DATA_USED                      | Where to get information about the used or
 FIRST_LOADING_HISTORY               | Download the history when you start the bot | boolean | false
 NUMBER_ROWS_LOAD_HISTORY            | Number of rows to load history | number | 100
 LOAD_HISTORY_DAYS                   | The number of days of history<br>While only used for Poloniex | number | 30
+SAVE_HISTORY                        | Save a copy of history to your computer | boolean | false
 CYCLES_AUTO_EXIT                    | How many cycles to make the exit | number | 0
 AUTO_EXIT_PERCENT                   | How much percentage should the price move away from the last profit of the order to complete the current cycle. <br>(FAQ п.62) | number | 0
 STOP_LOSS_PERCENT                   | Stop Loss percentage | number | 0
